@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewFile]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NewFile(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="com.flipkart.UserLoginTest">
+        <methods>
+          <include name="LaunchUrl_new_1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.UserLoginTest -->
+    </classes>
+  </test> <!-- NewFile(failed) -->
+</suite> <!-- Failed suite [NewFile] -->

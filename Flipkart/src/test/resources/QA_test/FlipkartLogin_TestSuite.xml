@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FlipkartLogin_TestSuite" parallel="none">
+
+<listeners>
+</listeners>
+  <test name="FlipkartLogin_TestSuite" group-by-instances="true" preserve-order="true">
+  <parameter name="url" value="https://www.flipkart.com/"/>
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.flipkart.UserLoginTest">	
+      	<methods>
+      		<include name = "LaunchUrlTest"/>
+      		<include name = "loginUserTest"/>      		
+      	</methods>
+      </class>
+      <class name="com.flipkart.HomePageTest">	
+      	<methods>
+      		<include name = "searchCameraListTest"/> 
+      		<include name = "productSelectionToAddToCartTest"/>	
+      		<include name = "goToCartPageDisplayTest"/>
+      	</methods>
+      </class>
+      <class name="com.flipkart.GoToCartPageTest">	
+      	<methods>
+      		<include name = "verifyProductDataInCartTest"/>
+      		<include name = "verifygoToCartPageDetailsTest"/> 
+      		<include name = "checkOutDetailsTest"/>
+      		<include name = "logOutTest"/>
+      	</methods>
+      </class>
+    </classes>
+  </test>
+  </suite>

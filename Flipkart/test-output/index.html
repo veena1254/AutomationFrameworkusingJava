@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FlipkartLogin_TestSuite" class="navigator-link">
+              <span class="suite-name border-passed">FlipkartLogin_TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span>C:\Users\Administrator\eclipse-workspace\Flipkart\src\test\resources\QA_test\FlipkartLogin_TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FlipkartLogin_TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FlipkartLogin_TestSuite" class="hide-methods passed suite-FlipkartLogin_TestSuite"> (hide)</a> <!-- hide-methods passed suite-FlipkartLogin_TestSuite -->
+                      <a href="#" panel-name="suite-FlipkartLogin_TestSuite" class="show-methods passed suite-FlipkartLogin_TestSuite"> (show)</a> <!-- show-methods passed suite-FlipkartLogin_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FlipkartLogin_TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.UserLoginTest" class="method navigator-link" hash-for-method="LaunchUrlTest(chrome, https://www.flipkart.com/)">LaunchUrlTest(chrome, https://www.flipkart.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.GoToCartPageTest" class="method navigator-link" hash-for-method="checkOutDetailsTest">checkOutDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.HomePageTest" class="method navigator-link" hash-for-method="goToCartPageDisplayTest">goToCartPageDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.GoToCartPageTest" class="method navigator-link" hash-for-method="logOutTest">logOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.UserLoginTest" class="method navigator-link" hash-for-method="loginUserTest(veena1254@gmail.com, veena@qa)">loginUserTest(veena1254@gmail.com, veena@qa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.HomePageTest" class="method navigator-link" hash-for-method="productSelectionToAddToCartTest">productSelectionToAddToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.HomePageTest" class="method navigator-link" hash-for-method="searchCameraListTest">searchCameraListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.GoToCartPageTest" class="method navigator-link" hash-for-method="verifyProductDataInCartTest">verifyProductDataInCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlipkartLogin_TestSuite" title="com.flipkart.GoToCartPageTest" class="method navigator-link" hash-for-method="verifygoToCartPageDetailsTest">verifygoToCartPageDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FlipkartLogin_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FlipkartLogin_TestSuite" class="panel FlipkartLogin_TestSuite">
+          <div class="suite-FlipkartLogin_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.UserLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LaunchUrlTest(chrome, https://www.flipkart.com/)">
+                  </a> <!-- LaunchUrlTest(chrome, https://www.flipkart.com/) -->
+                  <span class="method-name">LaunchUrlTest</span>
+                  <span class="parameters">(chrome, https://www.flipkart.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUserTest(veena1254@gmail.com, veena@qa)">
+                  </a> <!-- loginUserTest(veena1254@gmail.com, veena@qa) -->
+                  <span class="method-name">loginUserTest</span>
+                  <span class="parameters">(veena1254@gmail.com, veena@qa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipkartLogin_TestSuite-class-passed -->
+          <div class="suite-FlipkartLogin_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToCartPageDisplayTest">
+                  </a> <!-- goToCartPageDisplayTest -->
+                  <span class="method-name">goToCartPageDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSelectionToAddToCartTest">
+                  </a> <!-- productSelectionToAddToCartTest -->
+                  <span class="method-name">productSelectionToAddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCameraListTest">
+                  </a> <!-- searchCameraListTest -->
+                  <span class="method-name">searchCameraListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipkartLogin_TestSuite-class-passed -->
+          <div class="suite-FlipkartLogin_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.GoToCartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutDetailsTest">
+                  </a> <!-- checkOutDetailsTest -->
+                  <span class="method-name">checkOutDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutTest">
+                  </a> <!-- logOutTest -->
+                  <span class="method-name">logOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDataInCartTest">
+                  </a> <!-- verifyProductDataInCartTest -->
+                  <span class="method-name">verifyProductDataInCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifygoToCartPageDetailsTest">
+                  </a> <!-- verifygoToCartPageDetailsTest -->
+                  <span class="method-name">verifygoToCartPageDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlipkartLogin_TestSuite-class-passed -->
+        </div> <!-- panel FlipkartLogin_TestSuite -->
+        <div panel-name="test-xml-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator\eclipse-workspace\Flipkart\src\test\resources\QA_test\FlipkartLogin_TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FlipkartLogin_TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FlipkartLogin_TestSuite&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.flipkart.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flipkart.UserLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;LaunchUrlTest&quot;/&gt;
+          &lt;include name=&quot;loginUserTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.flipkart.UserLoginTest --&gt;
+      &lt;class name=&quot;com.flipkart.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;searchCameraListTest&quot;/&gt;
+          &lt;include name=&quot;productSelectionToAddToCartTest&quot;/&gt;
+          &lt;include name=&quot;goToCartPageDisplayTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.flipkart.HomePageTest --&gt;
+      &lt;class name=&quot;com.flipkart.GoToCartPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyProductDataInCartTest&quot;/&gt;
+          &lt;include name=&quot;verifygoToCartPageDetailsTest&quot;/&gt;
+          &lt;include name=&quot;checkOutDetailsTest&quot;/&gt;
+          &lt;include name=&quot;logOutTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.flipkart.GoToCartPageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlipkartLogin_TestSuite --&gt;
+&lt;/suite&gt; &lt;!-- FlipkartLogin_TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FlipkartLogin_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FlipkartLogin_TestSuite (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FlipkartLogin_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FlipkartLogin_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FlipkartLogin_TestSuite');
+function tableData_FlipkartLogin_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifygoToCartPageDetailsTest')
+data.setCell(0, 2, 'com.flipkart.GoToCartPageTest')
+data.setCell(0, 3, 10324);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkOutDetailsTest')
+data.setCell(1, 2, 'com.flipkart.GoToCartPageTest')
+data.setCell(1, 3, 6648);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchCameraListTest')
+data.setCell(2, 2, 'com.flipkart.HomePageTest')
+data.setCell(2, 3, 4938);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'productSelectionToAddToCartTest')
+data.setCell(3, 2, 'com.flipkart.HomePageTest')
+data.setCell(3, 3, 4827);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginUserTest')
+data.setCell(4, 2, 'com.flipkart.UserLoginTest')
+data.setCell(4, 3, 4626);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logOutTest')
+data.setCell(5, 2, 'com.flipkart.GoToCartPageTest')
+data.setCell(5, 3, 4576);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyProductDataInCartTest')
+data.setCell(6, 2, 'com.flipkart.GoToCartPageTest')
+data.setCell(6, 3, 1033);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'goToCartPageDisplayTest')
+data.setCell(7, 2, 'com.flipkart.HomePageTest')
+data.setCell(7, 3, 544);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LaunchUrlTest')
+data.setCell(8, 2, 'com.flipkart.UserLoginTest')
+data.setCell(8, 3, 389);
+window.suiteTableData['FlipkartLogin_TestSuite']= { tableData: data, tableDiv: 'times-div-FlipkartLogin_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-FlipkartLogin_TestSuite">
+              </div> <!-- times-div-FlipkartLogin_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FlipkartLogin_TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.flipkart.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.flipkart.GoToCartPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FlipkartLogin_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome, https://www.flipkart.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LaunchUrlTest(chrome, https://www.flipkart.com/)</span>
+                <span class="method-start">11822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginUserTest(veena1254@gmail.com, veena@qa)</span>
+                <span class="method-start">13675 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18309 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchCameraListTest</span>
+                <span class="method-start">18394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productSelectionToAddToCartTest</span>
+                <span class="method-start">23338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goToCartPageDisplayTest</span>
+                <span class="method-start">28169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.GoToCartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDataInCartTest</span>
+                <span class="method-start">28741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifygoToCartPageDetailsTest</span>
+                <span class="method-start">29778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutDetailsTest</span>
+                <span class="method-start">40106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutTest</span>
+                <span class="method-start">46757 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">51517 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

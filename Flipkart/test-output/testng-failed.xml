@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlipkartLogin_TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlipkartLogin_TestSuite(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="com.flipkart.UserLoginTest">
+        <methods>
+          <include name="loginUserTest" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.UserLoginTest -->
+      <class name="com.flipkart.HomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="goToCartPageDisplayTest"/>
+          <include name="setup"/>
+          <include name="productSelectionToAddToCartTest"/>
+        </methods>
+      </class> <!-- com.flipkart.HomePageTest -->
+      <class name="com.flipkart.GoToCartPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifygoToCartPageDetailsTest"/>
+          <include name="closeBrowser"/>
+          <include name="checkOutDetailsTest"/>
+          <include name="verifyProductDataInCartTest"/>
+        </methods>
+      </class> <!-- com.flipkart.GoToCartPageTest -->
+    </classes>
+  </test> <!-- FlipkartLogin_TestSuite(failed) -->
+</suite> <!-- Failed suite [FlipkartLogin_TestSuite] -->

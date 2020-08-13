@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-13T17:20:57Z" name="FlipkartLogin_TestSuite" finished-at="2020-08-13T17:21:48Z" duration-ms="51361">
+    <groups>
+    </groups>
+    <test started-at="2020-08-13T17:20:57Z" name="FlipkartLogin_TestSuite" finished-at="2020-08-13T17:21:48Z" duration-ms="51361">
+      <class name="com.flipkart.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipkart.HomePageTest@22635ba0]" started-at="2020-08-13T17:21:15Z" name="setup" finished-at="2020-08-13T17:21:15Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchCameraListTest()[pri:0, instance:com.flipkart.HomePageTest@22635ba0]" started-at="2020-08-13T17:21:15Z" name="searchCameraListTest" finished-at="2020-08-13T17:21:20Z" duration-ms="4938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCameraListTest -->
+        <test-method signature="productSelectionToAddToCartTest()[pri:0, instance:com.flipkart.HomePageTest@22635ba0]" started-at="2020-08-13T17:21:20Z" name="productSelectionToAddToCartTest" finished-at="2020-08-13T17:21:25Z" duration-ms="4827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSelectionToAddToCartTest -->
+        <test-method signature="goToCartPageDisplayTest()[pri:0, instance:com.flipkart.HomePageTest@22635ba0]" started-at="2020-08-13T17:21:25Z" name="goToCartPageDisplayTest" finished-at="2020-08-13T17:21:26Z" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCartPageDisplayTest -->
+      </class> <!-- com.flipkart.HomePageTest -->
+      <class name="com.flipkart.UserLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.UserLoginTest@1df82230]" started-at="2020-08-13T17:20:57Z" name="setup" finished-at="2020-08-13T17:21:09Z" duration-ms="11811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LaunchUrlTest(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.UserLoginTest@1df82230]" started-at="2020-08-13T17:21:09Z" name="LaunchUrlTest" finished-at="2020-08-13T17:21:09Z" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrlTest -->
+        <test-method signature="loginUserTest(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.UserLoginTest@1df82230]" started-at="2020-08-13T17:21:10Z" name="loginUserTest" data-provider="getLoginDetailsData" finished-at="2020-08-13T17:21:15Z" duration-ms="4626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[veena1254@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[veena@qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.flipkart.UserLoginTest@1df82230]" started-at="2020-08-13T17:21:48Z" name="closeBrowser" finished-at="2020-08-13T17:21:49Z" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.flipkart.UserLoginTest -->
+      <class name="com.flipkart.GoToCartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipkart.GoToCartPageTest@13c10b87]" started-at="2020-08-13T17:21:26Z" name="setup" finished-at="2020-08-13T17:21:26Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductDataInCartTest()[pri:0, instance:com.flipkart.GoToCartPageTest@13c10b87]" started-at="2020-08-13T17:21:26Z" name="verifyProductDataInCartTest" finished-at="2020-08-13T17:21:27Z" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDataInCartTest -->
+        <test-method signature="verifygoToCartPageDetailsTest()[pri:0, instance:com.flipkart.GoToCartPageTest@13c10b87]" started-at="2020-08-13T17:21:27Z" name="verifygoToCartPageDetailsTest" finished-at="2020-08-13T17:21:37Z" duration-ms="10324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifygoToCartPageDetailsTest -->
+        <test-method signature="checkOutDetailsTest()[pri:0, instance:com.flipkart.GoToCartPageTest@13c10b87]" started-at="2020-08-13T17:21:37Z" name="checkOutDetailsTest" finished-at="2020-08-13T17:21:44Z" duration-ms="6648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutDetailsTest -->
+        <test-method signature="logOutTest()[pri:0, instance:com.flipkart.GoToCartPageTest@13c10b87]" started-at="2020-08-13T17:21:44Z" name="logOutTest" finished-at="2020-08-13T17:21:48Z" duration-ms="4576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+      </class> <!-- com.flipkart.GoToCartPageTest -->
+    </test> <!-- FlipkartLogin_TestSuite -->
+  </suite> <!-- FlipkartLogin_TestSuite -->
+</testng-results>
